@@ -1981,7 +1981,7 @@ input, select, textarea {
 
 
 	.item {
-		border-radius: 5px;
+		/* border-radius: 5px; */
 		box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
 		margin-bottom: 40px;
 		transition:         all 200ms;

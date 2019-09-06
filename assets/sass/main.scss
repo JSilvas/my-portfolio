@@ -850,6 +850,16 @@
 
 			.item {
 				margin-bottom: 20px;
+				// border-radius: 5px;
+				box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
+				transition:         all 200ms;
+				-moz-transition:    all 200ms;
+				-webkit-transition: all 200ms;
+			}
+		
+			.item:hover {
+				box-shadow: 2.5px 10px 10px 0.5px rgba(0, 0, 0, 0.18);
+				transform: scale(1.01)
 			}
 
 		/* Header */
