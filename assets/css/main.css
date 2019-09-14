@@ -1979,9 +1979,8 @@ input, select, textarea {
 
 /* Item */
 
-
 	.item {
-		/* border-radius: 5px; */
+		/* border-radius: 10px; */
 		box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
 		margin-bottom: 40px;
 		transition:         all 200ms;
@@ -1990,8 +1989,8 @@ input, select, textarea {
 	}
 
 	.item:hover {
-		box-shadow: 2.5px 10px 10px 0.5px rgba(0, 0, 0, 0.18);
-		transform: scale(1.01)
+		box-shadow: 5.5px 20px 20px 0.5px rgba(0, 0, 0, 0.18);
+		transform: scale(1.02)
 	}
 
 		.item header {

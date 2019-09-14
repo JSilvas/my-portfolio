@@ -522,6 +522,7 @@
 /* Item */
 
 	.item {
+		// border-radius: 10px;
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 
@@ -850,7 +851,7 @@
 
 			.item {
 				margin-bottom: 20px;
-				// border-radius: 5px;
+				border-radius: 10px;
 				box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
 				transition:         all 200ms;
 				-moz-transition:    all 200ms;
