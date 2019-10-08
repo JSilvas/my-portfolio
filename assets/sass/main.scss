@@ -531,10 +531,13 @@
 /* Item */
 
 	.item {
-		// border-radius: 10px;
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
-
+		border-radius: 10px;
+		box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
+		transition:         all 200ms;
+		-moz-transition:    all 200ms;
+		-webkit-transition: all 200ms;
+		
 		header {
 			background: #fff;
 			margin: 0;
@@ -545,6 +548,11 @@
 				font-size: 1em;
 			}
 		}
+	}
+
+	.item:hover {
+		box-shadow: 2.5px 10px 10px 0.5px rgba(0, 0, 0, 0.18);
+		transform: scale(1.01)
 	}
 
 /* Icons */
@@ -860,16 +868,6 @@
 
 			.item {
 				margin-bottom: 20px;
-				border-radius: 10px;
-				box-shadow: 0.5px 2px 2px 0.5px rgba(0, 0, 0, 0.18);
-				transition:         all 200ms;
-				-moz-transition:    all 200ms;
-				-webkit-transition: all 200ms;
-			}
-		
-			.item:hover {
-				box-shadow: 2.5px 10px 10px 0.5px rgba(0, 0, 0, 0.18);
-				transform: scale(1.01)
 			}
 
 		/* Header */
