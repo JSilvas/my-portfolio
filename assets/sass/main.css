@@ -947,6 +947,9 @@ br.clear {
 /* Sections/Article */
 section, article {
   margin-bottom: 3em; }
+  section a, article a {
+    display: inline-block;
+    border: 0; }
   section .preview-header, article .preview-header {
     border-bottom-left-radius: 0.35em;
     border-bottom-right-radius: 0.35em; }
@@ -963,8 +966,7 @@ section, article {
 /* Image */
 .image {
   display: inline-block;
-  border: 0;
-  border-radius: 0.35em; }
+  border: 0; }
   .image img {
     display: block;
     width: 100%; }

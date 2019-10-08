@@ -286,6 +286,14 @@
 /* Sections/Article */
 
 	section, article {
+		.preview-header {
+			border-bottom-left-radius: 0.35em;
+			border-bottom-right-radius: 0.35em;
+		}
+		.preview-image {
+			border-top-left-radius: 0.35em;
+			border-top-right-radius: 0.35em;
+		}
 		margin-bottom: 3em;
 
 		> :last-child,
@@ -304,6 +312,7 @@
 	.image {
 		display: inline-block;
 		border: 0;
+		border-radius: 0.35em;
 
 		img {
 			display: block;
